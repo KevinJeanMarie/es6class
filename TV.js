@@ -14,4 +14,16 @@ this.volume = this.volume - down
 
 }
 
+changechannel (change){
+    this.channel = this.channel 
+
 }
+brandtv (Sony){
+    this.brand = this.brand 
+}
+}
+
+let tv= new TV ("sony", 50, 50)
+console.log(tv)
+
+
